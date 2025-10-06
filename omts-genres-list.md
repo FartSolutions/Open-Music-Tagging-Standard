@@ -2,17 +2,18 @@
 
 This list defines all allowed or recommended genres for use in OMTS metadata tagging. Genres are grouped into major categories with recommended spellings and notes where needed.
 
-Use exact spelling.
+Use exact spelling. Genres are not case sensitive. The first letters may be capitalized for easier readability.
 
 Multiple genres can be combined using `;` (see [OMTS standard, section 7](./README.md#7-genres)).
 
-For a full list  of genres see the [omts-full-genres-list.txt](./rsc/omts-full-genres-list.txt).
+For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-genres-list.txt) or the [musicbrainz genres list](https://musicbrainz.org/genres).
 
 ---
 
 ## 💃 Electronic
 
-- Dance/Electronic
+- Dance
+- Electronic
 - House
 - Future Bass
 - Techno
@@ -23,11 +24,11 @@ For a full list  of genres see the [omts-full-genres-list.txt](./rsc/omts-full-g
 - Synthwave
 - Future Funk
 - Downtempo
-- Drum & Bass
+- Drum and Bass
 - Jungle
 - IDM
 
-> ✅ Prefer `Dance/Electronic` over generic `EDM`.
+> ✅ Prefer `Dance;Electronic` over generic `EDM`.
 
 ---
 
@@ -54,20 +55,20 @@ For a full list  of genres see the [omts-full-genres-list.txt](./rsc/omts-full-g
 - Synthpop
 
 > ❗ Avoid general terms like `Mainstream`.
-> ✅ Use `Electropop` or `Dance/Electronic;Pop` for synth-heavy pop music.
+> ✅ Use `Electropop` or `Dance;Electronic;Pop` for synth-heavy pop music.
 
 ---
 
-## 🎹 Hip-Hop & Rap
+## 🎹 Hip Hop & Rap
 
-- Hip-Hop
+- Hip Hop
 - Rap
 - Trap
 - Boom Bap
-- Lo-fi Hip-Hop
+- Lo-fi Hip Hop
 
 > ✅ Use `Trap` only for trap beats, not as mod.
-> ✅ Combine with `Electronic` if needed: `Hip-Hop;Electronic`.
+> ✅ Combine with `Electronic` if needed: `Hip Hop;Electronic`.
 
 ---
 
@@ -86,7 +87,7 @@ For a full list  of genres see the [omts-full-genres-list.txt](./rsc/omts-full-g
 
 ## 🌍 World & Folk
 
-- World
+- World Fusion
 - Afrobeat
 - Latin
 - Reggaeton
@@ -94,7 +95,7 @@ For a full list  of genres see the [omts-full-genres-list.txt](./rsc/omts-full-g
 - Folk
 - Celtic
 
-> ✅ Use `World` sparingly; prefer more specific terms if possible.
+> ✅ Use `World Fusion` sparingly; prefer more specific terms if possible.
 
 ---
 
@@ -139,7 +140,7 @@ For a full list  of genres see the [omts-full-genres-list.txt](./rsc/omts-full-g
 ## Notes
 
 - Write genres in **Title Case** (not all caps or lowercase)
-- Combine multiple genres with `;` (e.g. `Dance/Electronic;House`)
+- Combine multiple genres with `;` (e.g. `Dance;Electronic;House`)
 - Prefer **specific** over **broad** genres where possible
 
 ---
