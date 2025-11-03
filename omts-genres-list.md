@@ -127,10 +127,10 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 ## 🎵 Miscellaneous / Utility Tags
 
 - Comedy
-- Spooken Word
+- Spoken Word
 - Audiobook
 - Podcast
-- Mediation
+- Meditation
 - ASMR
 
 > ✅ Only use if the track does not fit music genres.
