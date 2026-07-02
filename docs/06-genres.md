@@ -1,16 +1,18 @@
-# 🎼 OMTS Genres List
+# 6. Genres
 
-This list defines all allowed or recommended genres for use in OMTS metadata tagging. Genres are grouped into major categories with recommended spellings and notes where needed.
+## 🎼 OMTS Genres Overview
+
+This list gives a quick overview of allowed or recommended genres for use in OMTS metadata tagging. Genres are grouped into major categories with recommended spellings and notes where needed.
 
 Use exact spelling. Genres are not case sensitive. The first letters may be capitalized for easier readability.
 
 Multiple genres can be combined using `;` (see [OMTS standard, section 7](./README.md#7-genres)).
 
-For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-genres-list.txt) or the [musicbrainz genres list](https://musicbrainz.org/genres).
+For a full list of genres see the [MusicBrainz Genre List](https://musicbrainz.org/genres).
 
 ---
 
-## 💃 Electronic
+### 💃 Electronic
 
 - Dance
 - Electronic
@@ -32,7 +34,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎸 Rock & Alternative
+### 🎸 Rock & Alternative
 
 - Rock
 - Indie Rock
@@ -47,7 +49,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎤 Pop
+### 🎤 Pop
 
 - Pop
 - Electropop
@@ -59,7 +61,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎹 Hip Hop & Rap
+### 🎹 Hip Hop & Rap
 
 - Hip Hop
 - Rap
@@ -72,7 +74,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎻 Classical & Instrumental
+### 🎻 Classical & Instrumental
 
 - Classical
 - Orchestral
@@ -85,7 +87,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🌍 World & Folk
+### 🌍 World & Folk
 
 - World Fusion
 - Afrobeat
@@ -99,7 +101,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎧 Ambient & Experimental
+### 🎧 Ambient & Experimental
 
 - Ambient
 - Drone
@@ -112,7 +114,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎬 Soundtrack & Score
+### 🎬 Soundtrack & Score
 
 - Soundtrack
 - Film Score
@@ -124,7 +126,7 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 
 ---
 
-## 🎵 Miscellaneous / Utility Tags
+### 🎵 Miscellaneous / Utility Tags
 
 - Comedy
 - Spoken Word
@@ -134,17 +136,3 @@ For a full list of genres see the [omts-full-genres-list.txt](./rsc/omts-full-ge
 - ASMR
 
 > ✅ Only use if the track does not fit music genres.
-
----
-
-## Notes
-
-- Write genres in **Title Case** (not all caps or lowercase)
-- Combine multiple genres with `;` (e.g. `Dance;Electronic;House`)
-- Prefer **specific** over **broad** genres where possible
-
----
-
-## Contributions
-
-This list is open for expansion. If you'd like to suggest a new genre or a classification, please open a pull request or submit an issue.
