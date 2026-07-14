@@ -49,7 +49,9 @@ The following conventions are in no way intended to restrict the artistic freedo
 - ✅ `Let It Be - Live`
 - ✅ `Blinding Lights - Single`
 - ✅ `Future Nostalgia - EP`
-- ✅ `Beautiful People (Miss Monique Remix) - Single`
+- ✅ `Beautiful People - Single`
+- ❌ `Blinding Lights (Single)`
+- ❌ `Beautiful People (Miss Monique Remix) - Single`
 
 ---
 
