@@ -109,7 +109,8 @@ The following conventions are in no way intended to restrict the artistic freedo
 **Examples:**
 
 - ✅ `Synthwave`
-- ✅ `Dance/Electronic;House`
+- ✅ `Dance;Electronic;House`
+- ❌ `Dance;Electronic & Future Bass`
 - ❌ `Dance/Electronic & Future Bass`
 
 ---
