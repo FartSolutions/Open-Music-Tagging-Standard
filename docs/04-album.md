@@ -14,14 +14,14 @@ The Album tag must follow this structure: `{Album Name} - {Release Type}`
 
 ### Allowed Release Type Suffixes
 
-|Suffix|Usage|Example
-|-|-|-
-|_(none)_|Standard full-length albums.|`Let It Be`
-|`- Single`|Releases containing 1-3 tracks.|`Blinding Lights - Single`
-|`- EP`|Extended Plays (typically 4-6 tracks).|`Future Nostalgia - EP`
-|`- Deluxe`|Expanded editions with additional tracks.|`Deep Spectrum - Deluxe`
-|`- Live`|Recordings from live performances.|`Let It Be - Live`
-|`- Remix`|Standalone albums consisting entirely of remixes.|`Remixes - Remix`
+| **Suffix** | **Usage** | **Example** |
+| :--------- | :-------- | :---------- |
+| _(none)_ | Standard full-length albums. | `Let It Be` |
+| `- Single` | Releases containing 1-3 tracks. | `Blinding Lights - Single` |
+| `- EP` | Extended Plays (typically 4-6 tracks). | `Future Nostalgia - EP` |
+| `- Deluxe` | Expanded editions with additional tracks. | `Deep Spectrum - Deluxe` |
+| `- Live` | Recordings from live performances. | `Let It Be - Live` |
+| `- Remix` | Standalone albums consisting entirely of remixes. | `Remixes - Remix` |
 
 > **Note on Remixes:** Individually remix tracks on a standard album do **not** modify the Album tag. The Album tag only receives a suffix if the entire release is a specific type (e.g., a Remix Album or a Single). For individual remix tracks, the version information belongs in the **Title** tag (e.g., `Song (Remix)`).
 
@@ -52,31 +52,31 @@ To maintain compatibility with players that sort by Album and Track Number, and 
 
 ### 4.2.2 Examples
 
-**Scenario: "Deep Spectrum" Album**
+**Scenario:** "Deep Spectrum" Album
 
 _Original Release:_ 5 Tracks. _Deluxe Release:_ Adds "Golden Crush" (after Track 2) and "Social Touch" (after Track 4).
 
 **A. Original Album Tags** (_Album Tag:_ `Deep Spectrum`)
 
-|Track #|Title|Album Tag
-|-|-|-
-|`01`|Love Nightmare|`Deep Spectrum`
-|`02`|Deep Spectrum|`Deep Spectrum`
-|`03`|Heroic Time|`Deep Spectrum`
-|`04`|Global Madness|`Deep Spectrum`
-|`05`|Feel Over|`Deep Spectrum`
+| **Track #** | **Title** | **Album Tag** |
+| :---------- | :-------- | :------------ |
+| `01` | Love Nightmare | `Deep Spectrum` |
+| `02` | Deep Spectrum | `Deep Spectrum` |
+| `03` | Heroic Time | `Deep Spectrum` |
+| `04` | Global Madness | `Deep Spectrum` |
+| `05` | Feel Over | `Deep Spectrum` |
 
 **B. Deluxe Album Tags** (_Album Tag:_ `Deluxe Spectrum - Deluxe`) _Note how Track 02 and Track 04 appear twice with the same number._
 
-|Track #|Title|Album Tag|Note
-|-|-|-|-
-|`01`|Love Nightmare|`Deep Spectrum`|Original
-|`02`|Deep Spectrum|`Deep Spectrum`|Original
-|`02`|Golden Crush|`Deep Spectrum - Deluxe`|**Bonus** (Follows Track 2)
-|`03`|Heroic Time|`Deep Spectrum`|Original
-|`04`|Global Madness|`Deep Spectrum`|Original
-|`04`|Social Touch|`Deep Spectrum - Deluxe`|**Bonus** (Follows Track 4)
-|`05`|Feel Over|`Deep Spectrum`|Original
+| **Track #** | **Title** | **Album Tag** | **Note** |
+| :---------- | :-------- | :------------ | :------- |
+| `01` | Love Nightmare | `Deep Spectrum` | Original |
+| `02` | Deep Spectrum | `Deep Spectrum` | Original |
+| `02` | Golden Crush | `Deep Spectrum - Deluxe` | **Bonus** (Follows Track 2) |
+| `03` | Heroic Time | `Deep Spectrum` | Original |
+| `04` | Global Madness | `Deep Spectrum` | Original |
+| `04` | Social Touch | `Deep Spectrum - Deluxe` | **Bonus** (Follows Track 4) |
+| `05` | Feel Over | `Deep Spectrum` | Original |
 
 > **Implementation Note:** When tagging files, ensure the `Track Total` (e.g., `05/05`) reflects the _total_ count of files in the original release.
 
@@ -94,12 +94,12 @@ _Original Release:_ 5 Tracks. _Deluxe Release:_ Adds "Golden Crush" (after Track
 
 ## 4.4 Common Mistakes
 
-|❌ Incorrect|✅ Correct|Reason
-|-|-|-
-|`Blinding Lights (Single)`|`Blinding Lights - Single`|Use `-` separator.
-|`Future Nostaliga (Deluxe Edition)`|`Future Nostalgia - Deluxe`|Keep suffix short and standardized.
-|`Deep Spectrum Remixes`|`Deep Spectrum - Remix`|Use standardized suffix for remix albums.
-|`02b` (for bonus track)|`02`|Use identical track numbers for interpolation.
+| ❌ **Incorrect** | ✅ **Correct** | **Reason** |
+| :--------------- | :------------- | :--------- |
+| `Blinding Lights (Single)` | `Blinding Lights - Single` | Use `-` separator. |
+| `Future Nostaliga (Deluxe Edition)` | `Future Nostalgia - Deluxe` | Keep suffix short and standardized. |
+| `Deep Spectrum Remixes` | `Deep Spectrum - Remix` | Use standardized suffix for remix albums. |
+| `02b` (for bonus track) | `02` | Use identical track numbers for interpolation. |
 
 ---
 

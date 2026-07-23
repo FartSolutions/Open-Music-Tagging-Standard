@@ -17,20 +17,20 @@ The Title tag must follow this structure: `{Base Title} {Version Suffix}`
 
 The following keywords are standardized for use within the parentheses. Do not invent new keywords; if a version does not fit, use the closest matching standard term.
 
-|**Keyword**|**Usage**|**Example**
-|-|-|-
-|`Extended Mix`|Club or extended versions with longer intros/outros.|`Song (Extended Mix)`
-|`Remix`|A remix by another artist. Requires the remixer's name.|`Song (Artist Remix)`
-|`Acoustic`|Stripped-down, unplugged versions.|`Song (Acoustic)`
-|`Instrumental`|Versions without vocals.|`Song (Instrumental)`
-|`Orchestral`|Versions performed by an orchestra.|`Song (Orchestral)`
-|`Live`|Live recording. Optionally includes location/year.|`Song (Live)` or `Song (Live at Wembley 1985)`
-|`Slowed`|Slowed down tempo (often with reverb).|`Song (Slowed)`
-|`Sped Up`|Increased tempo (nightcore style).|`Song (Sped Up)`
-|`Intro`|Tracks serving as an introduction.|`Song (Intro)`
-|`Interlude`|Short connection tracks.|`Song (Interlude)`
-|`Radio Edit`|Shortened version for radio play.|`Song (Radio Edit)`
-|`VIP`|"Variation In Production" (common in Drum & Bass/Dubstep).|`Song (VIP)`
+| **Keyword** | **Usage** | **Example** |
+| :---------- | :-------- | :---------- |
+| `Extended Mix` | Club or extended versions with longer intros/outros. | `Song (Extended Mix)` |
+| `Remix` | A remix by another artist. Requires the remixer's name. | `Song (Artist Remix)` |
+| `Acoustic` | Stripped-down, unplugged versions. | `Song (Acoustic)` |
+| `Instrumental` | Versions without vocals. | `Song (Instrumental)` |
+| `Orchestral` | Versions performed by an orchestra. | `Song (Orchestral)` |
+| `Live` | Live recording. Optionally includes location/year. | `Song (Live)` or `Song (Live at Wembley 1985)` |
+| `Slowed` | Slowed down tempo (often with reverb). | `Song (Slowed)` |
+| `Sped Up` | Increased tempo (nightcore style). | `Song (Sped Up)` |
+| `Intro` | Tracks serving as an introduction. | `Song (Intro)` |
+| `Interlude` | Short connection tracks. | `Song (Interlude)` |
+| `Radio Edit` | Shortened version for radio play. | `Song (Radio Edit)` |
+| `VIP` | "Variation In Production" (common in Drum & Bass/Dubstep). | `Song (VIP)` |
 
 ---
 
@@ -50,13 +50,13 @@ Tracks may have multiple attributes (e.g., a remix that is also extended and slo
 
 ### 2.3.2 Examples of Combinations
 
-|**Scenario**|**Structure**|✅ **Correct Example**|❌ **Incorrect Example**
-|-|-|-|-
-|**Extended Remix**|Extended + Remix|`Song (Extended DJ Hell Remix)`|`Song (Extended) (FJ Hell Remix)`
-|**Extended & Slowed**|Extended + Slowed|`Song (Extended Slowed)`|`Song (Extended, Slowed)`
-|**Complete Mix**|Extended + Slowed + Remix|`Song (Extended Slowed DJ Hell Remix)`|`Song (Extended Remix by DJ Hell Slowed)`
-|**Sped Up Remix**|Remix + Sped Up|`Song (Sped Up Armin van Buuren Remix)`|`Song (Armin van Buuren Remix Sped Up)`
-|**Acoustic Remix**|Acoustic + Remix|`Song (Acoustic DJ Shadow Remix)`|`Song (Remix Acoustic)`
+| **Scenario** | **Structure** | ✅ **Correct Example** | ❌ **Incorrect Example** |
+| :----------- | :------------ | :--------------------- | :----------------------- |
+| **Extended Remix** | Extended + Remix | `Song (Extended DJ Hell Remix)` | `Song (Extended) (FJ Hell Remix)` |
+| **Extended & Slowed** | Extended + Slowed | `Song (Extended Slowed)` | `Song (Extended, Slowed)` |
+| **Complete Mix** | Extended + Slowed + Remix | `Song (Extended Slowed DJ Hell Remix)` | `Song (Extended Remix by DJ Hell Slowed)` |
+| **Sped Up Remix** | Remix + Sped Up | `Song (Sped Up Armin van Buuren Remix)` | `Song (Armin van Buuren Remix Sped Up)` |
+| **Acoustic Remix** | Acoustic + Remix | `Song (Acoustic DJ Shadow Remix)` | `Song (Remix Acoustic)` |
 
 > **Rule of Thumb:** Keep it readable. If a combination becomes too long (more than 3 attributes), prioritize the most relevant attribute for the listener (usually `Remix` or `Extended`).
 
@@ -74,13 +74,13 @@ Tracks labeled as `Intro` or `Interlude` often do not have a unique "song title"
 
 ## 2.5 Common Mistakes
 
-|❌ **Incorrect**|✅ **Correct**|**Reason**
-|-|-|-
-|`Song (Extended Mix) (Remix)`|`Song (Extended Remix)`|Use one pair of parentheses.
-|`Song (feat. Artist)`|`Song`|Features belong in the **Artist** field, not Title (unless part of the official song name).
-|`Song (extended mix)`|`Song (Extended Mix)`|Use Title Case for keywords.
-|`Song - Extended Mix`|`Song (Extended Mix)`|Use parentheses `()`, not hyphens `-`.
-|`Song (DJ Hell ft. Artist Remix)`|`Song (DJ Hell Remix)`|Keep the Remix tag focused on the remixer; features are secondary.
+| ❌ **Incorrect** | ✅ **Correct** | **Reason** |
+| :--------------- | :------------- | :--------- |
+| `Song (Extended Mix) (Remix)` | `Song (Extended Remix)` | Use one pair of parentheses. |
+| `Song (feat. Artist)` | `Song` | Features belong in the **Artist** field, not Title (unless part of the official song name). |
+| `Song (extended mix)` | `Song (Extended Mix)` | Use Title Case for keywords. |
+| `Song - Extended Mix` | `Song (Extended Mix)` | Use parentheses `()`, not hyphens `-`. |
+| `Song (DJ Hell ft. Artist Remix)` | `Song (DJ Hell Remix)` | Keep the Remix tag focused on the remixer; features are secondary. |
 
 ---
 
